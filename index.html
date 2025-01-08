@@ -1,84 +1,243 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bottom of the Iceberg</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       body {
+        background: linear-gradient(to bottom, #00008b, #000000);
+      }
+
+      .outer-container {
         margin: 0;
         padding: 0;
-        min-height: 100vh;
-        background: linear-gradient(to bottom, #00008b, #000000);
-        color: white;
-        font-family: Arial, sans-serif;
+        height: 100vh;
+        background: transparent;
+        display: flex;
+        justify-content: center;
       }
 
-      .content {
-        padding: 20px;
-        max-width: 800px;
-        margin: 0 auto;
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 95%;
+        width: 100%;
       }
 
-      section {
-        margin-bottom: 120vh;
-        opacity: 0.9;
-      }
-
-      h1 {
-        font-size: 2.5em;
-        margin-bottom: 1em;
-      }
-
-      h2 {
-        font-size: 2em;
-        margin-bottom: 0.8em;
-      }
-
-      p {
+      .item {
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
         font-size: 1.2em;
-        line-height: 1.6;
+        transition: transform 0.3s ease;
+        max-height: 250px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .item:hover {
+        transform: translateY(-10px);
+      }
+
+      @media (max-width: 1024px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .metal-text {
+        font-family: "Metal Mania", cursive;
+        font-size: 48px;
+        color: #fff;
+        text-align: center;
       }
     </style>
   </head>
+
   <body>
-    <div class="content">
-      <section>
-        <h1></h1>
-        <p></p>
-      </section>
+    <div class="metal-text">Bottom of the Iceberg</div>
 
-      <section>
-        <h2></h2>
-        <p></p>
-      </section>
+    <div class="outer-container">
+      <div class="container">
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=2596157761/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=814129051/transparent=true/"
+            seamless
+            ><a
+              href="https://akhlys.bandcamp.com/album/house-of-the-black-geminus"
+              >House of the Black Geminus by Akhlys</a
+            ></iframe
+          >
+        </div>
 
-      <section>
-        <h2></h2>
-        <p></p>
-      </section>
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=853609600/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4059274100/transparent=true/"
+            seamless
+            ><a href="https://febrismanea.bandcamp.com/album/in-existence"
+              >(IN)EXISTENCE by Febris Manea</a
+            ></iframe
+          >
+        </div>
 
-      <section>
-        <h2></h2>
-        <p></p>
-      </section>
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=3354084468/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1752248217/transparent=true/"
+            seamless
+            ><a href="https://edismemberment.bandcamp.com/album/serial-urbicide"
+              >Serial Urbicide by Extermination Dismemberment</a
+            ></iframe
+          >
+        </div>
 
-      <section>
-        <h2></h2>
-        <p></p>
-      </section>
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=4269738797/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2527554322/transparent=true/"
+            seamless
+            ><a
+              href="https://sentientruin.bandcamp.com/album/eternal-flesh-ripping-chaos"
+              >Eternal Flesh Ripping Chaos by BESTIAL PUTREFACTION</a
+            ></iframe
+          >
+        </div>
 
-      <section>
-        <h2></h2>
-        <p></p>
-      </section>
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=2057901946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=11829854/transparent=true/"
+            seamless
+            ><a href="https://hellmilitia.bandcamp.com/album/jacobs-ladder"
+              >Jacob&#39;s Ladder by Hell Militia</a
+            ></iframe
+          >
+        </div>
 
-      <section>
-        <h2></h2>
-        <p></p>
-      </section>
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=4060129622/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2334899399/transparent=true/"
+            seamless
+            ><a href="https://wormrot.bandcamp.com/album/hiss"
+              >Hiss by Wormrot</a
+            ></iframe
+          >
+        </div>
 
-      <section>
-        <h2></h2>
-        <p></p>
-      </section>
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=3440570094/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2544692568/transparent=true/"
+            seamless
+            ><a
+              href="https://gnawtheirtongues.bandcamp.com/album/eschatological-scatology-2"
+              >Eschatological Scatology by GNAW THEIR TONGUES</a
+            ></iframe
+          >
+        </div>
+
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=1194998195/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3418300228/transparent=true/"
+            seamless
+            ><a href="https://drohtnung.bandcamp.com/album/black-void-ov-heaven"
+              >Black Void Ov Heaven by Drohtnung</a
+            ></iframe
+          >
+        </div>
+
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=3805071938/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4260168030/transparent=true/"
+            seamless
+            ><a href="https://deathoracle.bandcamp.com/album/a-g-b-b-a-u"
+              >A.G.B.B.A.U. by NYGTHBLSZ</a
+            ></iframe
+          >
+        </div>
+
+        <iframe
+          width="100%"
+          height="120px"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        ></iframe>
+        <div
+          style="
+            font-size: 10px;
+            color: #333;
+            line-break: anywhere;
+            word-break: normal;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+              Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+            font-weight: 100;
+          "
+        ></div>
+
+        <div class="item">
+          <iframe
+            width="100%"
+            height="120px"
+            scrolling="no"
+            frameborder="no"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1474984045&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"
+          ></iframe>
+          <div
+            style="
+              font-size: 10px;
+              color: #333;
+              line-break: anywhere;
+              word-break: normal;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+                Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+              font-weight: 100;
+            "
+          ></div>
+        </div>
+
+        <div class="item">
+          <iframe
+            style="border: 0; width: 100%; height: 120px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=2081787140/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3257348911/transparent=true/"
+            seamless
+            ><a
+              href="https://tetragrammacide.bandcamp.com/album/typhonian-wormholes-indecipherable-anti-structural-formul"
+              >Typhonian Wormholes: Indecipherable Anti-Structural Formulæ by
+              Tetragrammacide</a
+            ></iframe
+          >
+        </div>
+      </div>
     </div>
   </body>
 </html>
