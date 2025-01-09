@@ -32,6 +32,7 @@ mv output.html index.html
 ### Todos
 
 * General UI/UX tart up
+* Better UX for mobile (perhaps swap out small icons once width reaches a threshold)
 * Use Metal Mania font for title
 * Fix bundling (ignores title and Metal Mania font)
 
