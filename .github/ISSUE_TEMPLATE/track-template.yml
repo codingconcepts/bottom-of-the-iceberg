@@ -14,18 +14,16 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: band_name
     attributes:
       label: "Band Name"
-    render: bash
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: track_name
     attributes:
       label: "Track Name"
-    render: bash
     validations:
       required: true
