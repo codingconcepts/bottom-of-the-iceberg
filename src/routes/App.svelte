@@ -180,10 +180,7 @@
   />
 
   <header>
-    <h1>Bottom of the Iceberg</h1>
-
-    <!-- Replace the above with the below one bundling is fixed -->
-    <!-- <div class="metal-text">Bottom of the Iceberg</div> -->
+    <div class="metal-text">Bottom of the Iceberg</div>
     <p>A descent into the depths of extreme metal</p>
   </header>
 
