@@ -15,6 +15,11 @@
         },
         {
           type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=1362890488/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1341480427/transparent=true/",
+          title: "Lowgazers - Plebeian Grandstand"
+        },
+        {
+          type: "bandcamp",
           embedUrl:
             "https://bandcamp.com/EmbeddedPlayer/album=2596157761/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=814129051/transparent=true",
           title: "House of the Black Geminus - Akhlys",
@@ -27,16 +32,31 @@
         },
         {
           type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=40623812/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2517576029/transparent=true",
+          title: "Silence - RORCAL"
+        },
+        {
+          type: "bandcamp",
           embedUrl:
             "https://bandcamp.com/EmbeddedPlayer/album=1320490252/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1744996731/transparent=true",
           title: "INDWELL - Methwitch",
         },
+        {
+          type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=63441355/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1107287539/transparent=true",
+          title: "Through the Mirror - Endon"
+        }
       ],
     },
     {
       title: "Twilight Zone",
       description: "Light begins to fade",
       bands: [
+        {
+          type: "soundcloud",
+          embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/508135677&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+          title: "Preaching For Mass Suicide - Damaar"
+        },
         {
           type: "bandcamp",
           embedUrl:
@@ -116,6 +136,11 @@
       bands: [
         {
           type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=1401043708/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=245687838/transparent=true",
+          title: "PUTREFACTION IN PROGRESS - LAST DAYS OF HUMANITY"
+        },
+        {
+          type: "bandcamp",
           embedUrl:
             "https://bandcamp.com/EmbeddedPlayer/album=1194998195/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3418300228/transparent=true",
           title: "Black Void Ov Heaven - Drohtnung",
@@ -139,6 +164,11 @@
           title: "A.G.B.B.A.U. - NYGTHBLSZ",
         },
         {
+          type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=3899474641/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2656124149/transparent=true",
+          title: "Death Monolith - SUBDUER"
+        },
+        {
           type: "soundcloud",
           embedUrl:
             "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
@@ -155,6 +185,11 @@
       title: "Hadal Zone",
       description: "The crushing depths",
       bands: [
+        {
+          type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=431562691/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2465782309/transparent=true",
+          title: "Venereology - Merzbow"
+        },
         {
           type: "soundcloud",
           embedUrl:
