@@ -181,6 +181,9 @@
 
   <header>
     <h1>Bottom of the Iceberg</h1>
+
+    <!-- Replace the above with the below one bundling is fixed -->
+    <!-- <div class="metal-text">Bottom of the Iceberg</div> -->
     <p>A descent into the depths of extreme metal</p>
   </header>
 
@@ -231,5 +234,17 @@
     gap: 1rem;
     max-width: 80%;
     margin: 0 auto;
+  }
+
+  .metal-text {
+    font-size: 3.5rem;
+    font-family: "Metal Mania", cursive;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   }
 </style>

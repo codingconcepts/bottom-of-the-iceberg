@@ -20,7 +20,7 @@ npm install -g svelte-bundle
 Bundle the application
 
 ```sh
-svelte-bundle -i src/routes/App.svelte
+svelte-bundle -i src/routes/App.svelte -f
 ```
 
 Save the output.html file as index.html
