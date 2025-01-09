@@ -29,6 +29,12 @@ Save the output.html file as index.html
 mv output.html index.html
 ```
 
+### Todos
+
+* General UI/UX tart up
+* Use Metal Mania font for title
+* Fix bundling (ignores title and Metal Mania font)
+
 ### Thanks
 
 * Iceberg favicon created by Freepik - Flaticon
