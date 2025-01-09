@@ -89,6 +89,11 @@
       bands: [
         {
           type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=431629956/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2311589613/transparent=true",
+          title: "Pain/Ter - K.F.R"
+        },
+        {
+          type: "bandcamp",
           embedUrl:
             "https://bandcamp.com/EmbeddedPlayer/album=4270580890/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1117006975/transparent=true",
           title: "Enhanced Audial Terrorism - Febris Manea",
