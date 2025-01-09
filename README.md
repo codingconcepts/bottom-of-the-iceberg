@@ -2,7 +2,7 @@
 
 This is the code that backs [Bottom of the Iceberg](https://bottomoftheiceberg.com).
 
-Feel free to [contribute](#contributing) by submitting your own tracks/suggestions and, together, we'll decend to the depths of extreme metal; discovering new bands as we go.
+Feel free to contribute by submitting your own tracks/suggestions and, together, we'll decend to the depths of extreme metal; discovering new bands as we go.
 
 ### Contributing
 
