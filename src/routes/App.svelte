@@ -198,7 +198,7 @@
 <style>
   main {
     min-height: 100vh;
-    background: linear-gradient(180deg, #00008b 0%, #000000 100%);
+    background: linear-gradient(180deg, #4e70f5 0%, #000000 100%);
     padding: 2rem;
   }
 
