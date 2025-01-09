@@ -1,0 +1,29 @@
+name: "New track request"
+description: Create a request to add a new track to the iceberg
+title: "[Track] - <title>"
+body:
+  - type: dropdown
+    id: site
+    attributes:
+      label: "Site"
+      description: Where did you find the track?
+      multiple: false
+      options:
+        - Bandcamp
+        - SoundCloud
+    validations:
+      required: true
+
+  - type: textarea
+    id: band_name
+    attributes:
+      label: "Band Name"
+    validations:
+      required: true
+
+  - type: textarea
+    id: track_name
+    attributes:
+      label: "Track Name"
+    validations:
+      required: true
