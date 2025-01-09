@@ -18,7 +18,7 @@ body:
     id: band_name
     attributes:
       label: "Band Name"
-    render: text
+    render: bash
     validations:
       required: true
 
@@ -26,6 +26,6 @@ body:
     id: track_name
     attributes:
       label: "Track Name"
-    render: text
+    render: bash
     validations:
       required: true
