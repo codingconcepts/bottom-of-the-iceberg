@@ -10,19 +10,14 @@
       bands: [
         {
           type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=2795708310/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3622130824/transparent=true",
-          title: "The Codex Necro - Anaal Nathrakh"
+          embedUrl:
+            "https://bandcamp.com/EmbeddedPlayer/album=2596157761/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=814129051/transparent=true",
+          title: "House of the Black Geminus - Akhlys",
         },
         {
           type: "bandcamp",
           embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=1362890488/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1341480427/transparent=true/",
           title: "Lowgazers - Plebeian Grandstand"
-        },
-        {
-          type: "bandcamp",
-          embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=2596157761/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=814129051/transparent=true",
-          title: "House of the Black Geminus - Akhlys",
         },
         {
           type: "bandcamp",
@@ -52,6 +47,11 @@
       title: "Twilight Zone",
       description: "Light begins to fade",
       bands: [
+        {
+          type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=2795708310/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3622130824/transparent=true",
+          title: "The Codex Necro - Anaal Nathrakh"
+        },
         {
           type: "soundcloud",
           embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/508135677&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
