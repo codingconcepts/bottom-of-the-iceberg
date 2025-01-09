@@ -1,6 +1,6 @@
 name: "New track request"
 description: Create a request to add a new track to the iceberg
-title: ""
+title: "[TRACK] - Enter a descriptive title"
 body:
   - type: dropdown
     id: site
