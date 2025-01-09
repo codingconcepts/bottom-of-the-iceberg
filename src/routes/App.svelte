@@ -143,6 +143,11 @@
           embedUrl:
             "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
           title: "Ruin - Endless Dismal Moan",
+        },
+        {
+          type: "bandcamp",
+          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=2947460408/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1775346782/transparent=true",
+          title: "Abhabaniyastral Samsarimplication - BRAHMASTRIKA"
         }
       ],
     },
@@ -155,11 +160,6 @@
           embedUrl:
             "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1474984045&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
           title: "The Pain of Bleeding - Emit",
-        },
-        {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=2947460408/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1775346782/transparent=true",
-          title: "Abhabaniyastral Samsarimplication - BRAHMASTRIKA"
         },
         {
           type: "bandcamp",
