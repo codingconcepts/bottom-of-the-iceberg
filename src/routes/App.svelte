@@ -245,15 +245,6 @@
     border-radius: 8px;
   }
 
-  h1 {
-    font-size: 3.5rem;
-    margin: 0;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  }
-
   header p {
     font-size: 1.2rem;
     margin: 1rem 0 0;
