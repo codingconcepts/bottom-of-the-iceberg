@@ -7,7 +7,7 @@ Iceberg charts (and music tastes generally) differ wildly from person to person.
 Contributions are very welcome. Please either:
 
 * Create a Pull Request if you're familiar with GitHub
-* [Create an Issue](https://github.com/codingconcepts/bottom-of-the-iceberg/issues) if you're not familiar with GitHub
+* [Create a track request](https://github.com/codingconcepts/bottom-of-the-iceberg/issues/new/choose) if you're not familiar with GitHub
 
 ### Bundling the site for release
 
