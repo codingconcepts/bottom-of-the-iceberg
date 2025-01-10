@@ -5,24 +5,17 @@
   const handleClick = () => {
     window.open(repoUrl, '_blank', 'noopener,noreferrer');
   };
-
-  $: backgroundColor = '#24292e';
-  $: textColor = '#ffffff';
-  $: borderColor = '#1b1f23';
 </script>
 
-<div class="button-wrapper">
+<div class='flex justify-end'>
   <button
     on:click={handleClick}
-    class="github-button"
-    style="--bg-color: {backgroundColor}; --text-color: {textColor}; --border-color: {borderColor};"
+    class="flex gap-2 items-center bg-black text-white px-4 py-2 rounded transition-colors duration-300 hover:bg-slate-900"
   >
     <svg
-      height="20"
-      width="20"
       viewBox="0 0 16 16"
       fill="currentColor"
-      style="vertical-align: text-bottom;"
+      class="size-5"
     >
       <path
         fill-rule="evenodd"
@@ -32,39 +25,3 @@
     <span>{buttonText}</span>
   </button>
 </div>
-<style>
-  .button-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0rem;
-    box-sizing: border-box;
-  }
-
-  .github-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 12px;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    user-select: none;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    transition: background-color 0.2s ease;
-  }
-
-  .github-button:hover {
-    filter: brightness(90%);
-  }
-
-  .github-button:active {
-    filter: brightness(85%);
-  }
-</style>
