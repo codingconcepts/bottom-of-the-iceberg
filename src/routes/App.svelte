@@ -213,7 +213,7 @@
   ];
 </script>
 
-<main class="min-h-screen p-4 bg-gradient-to-b from-brand-blue to-black">
+<main class="prose min-h-screen p-4 bg-gradient-to-b from-brand-blue to-black max-w-none">
   <div class="flex flex-col gap-16 max-w-7xl mx-auto px-4">
 
     <GitHubButton
@@ -222,8 +222,8 @@
     />
     
     <header>
-      <h1 class="font-display">Bottom of the Iceberg</h1>
-      <p>A descent into the depths of extreme metal</p>
+      <h1 class="font-display m-0">Bottom of the Iceberg</h1>
+      <p class='m-0'>A descent into the depths of extreme metal</p>
     </header>
     
     <section class="flex flex-col gap-16 w-full">

@@ -12,7 +12,16 @@ export default {
         display: ['"Metal Mania"'],
         body: ['"Open Sans"'],
       },
+      typography: ({ theme }) => ({
+        DEFAULT: {
+          css: {
+            '*': {
+              color: theme('colors.white'),
+            },
+          },
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
