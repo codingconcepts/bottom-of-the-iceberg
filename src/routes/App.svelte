@@ -213,66 +213,31 @@
   ];
 </script>
 
-<main>
-  <GitHubButton
+<main class="min-h-screen p-4 bg-gradient-to-b from-brand-blue to-black">
+  <div class="flex flex-col gap-16 max-w-7xl mx-auto px-4">
+
+    <GitHubButton
     repoUrl="https://github.com/codingconcepts/bottom-of-the-iceberg"
     buttonText="Contribute"
-  />
-
-  <header>
-    <div class="metal-text">Bottom of the Iceberg</div>
-    <p>A descent into the depths of extreme metal</p>
-  </header>
-
-  {#each layers as layer}
-    <Layer {...layer}>
-      <div class="band-row">
-        {#each layer.bands as band}
+    />
+    
+    <header>
+      <h1 class="font-display">Bottom of the Iceberg</h1>
+      <p>A descent into the depths of extreme metal</p>
+    </header>
+    
+    <section class="flex flex-col gap-16 w-full">
+      {#each layers as layer}
+      <Layer {...layer}>
+        <div class='grid grid-cols-1 md:grid-cols-2 gap-4'>
+          {#each layer.bands as band}
           <Band {...band} />
-        {/each}
-      </div>
-    </Layer>
-  {/each}
+          {/each}
+        </div>
+      </Layer>
+      {/each}
+    </section>
+    
+  </div>
 </main>
 
-<style>
-  main {
-    min-height: 100vh;
-    background: linear-gradient(180deg, #4e70f5 0%, #000000 100%);
-    padding: 2rem;
-  }
-
-  header {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 4rem;
-    padding: 2rem;
-    border-radius: 8px;
-  }
-
-  header p {
-    font-size: 1.2rem;
-    margin: 1rem 0 0;
-    opacity: 0.8;
-  }
-
-  .band-row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
-  .metal-text {
-    font-size: 3.5rem;
-    font-family: "Metal Mania", cursive;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    font-weight: 800;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  }
-</style>
