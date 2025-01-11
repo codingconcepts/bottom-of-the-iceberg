@@ -22,7 +22,7 @@
 
   <section class="relative flex flex-col justify-center items-center min-h-96 px-4 sm:px-8">
     <div class="z-10">
-      <h1 class="text-center font-display m-0 text-4xl lg:text-7xl text-brand-depth-4">Bottom of the Iceberg</h1>
+      <h1 class="text-center font-display m-0 text-4xl lg:text-7xl text-brand-depth-4 drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]">Bottom of the Iceberg</h1>
       <p class="m-0 text-center font-bold text-xl text-brand-depth-3">A descent into the depths of extreme metal</p>
     </div>
     <div class="absolute bottom-0 w-full">
