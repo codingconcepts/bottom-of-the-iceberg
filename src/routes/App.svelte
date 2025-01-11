@@ -174,8 +174,8 @@
         {
           type: 'bandcamp',
           embedUrl:
-            'https://bandcamp.com/EmbeddedPlayer/album=3805071938/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4260168030/transparent=true',
-          title: 'A.G.B.B.A.U. - NYGTHBLSZ',
+            'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false',
+          title: 'Ruin - Endless Dismal Moan',
         },
         {
           type: 'bandcamp',
