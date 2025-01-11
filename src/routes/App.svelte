@@ -3,6 +3,7 @@
   import Band from '../components/Band.svelte';
   import GitHubButton from '../components/GitHubButton.svelte';
   import Iceberg from '../components/Iceberg.svelte';
+  import DepthRuler from '../components/DepthRuler.svelte';
 
   const layers = [
     {
@@ -184,12 +185,6 @@
           title: 'Death Monolith - SUBDUER',
         },
         {
-          type: 'soundcloud',
-          embedUrl:
-            'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
-          title: 'Ruin - Endless Dismal Moan',
-        },
-        {
           type: 'bandcamp',
           embedUrl:
             'https://bandcamp.com/EmbeddedPlayer/album=2947460408/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1775346782/transparent=true',
@@ -230,6 +225,8 @@
       <GitHubButton repoUrl="https://github.com/codingconcepts/bottom-of-the-iceberg" buttonText="Contribute" />
     </nav>
   </header>
+
+  <DepthRuler />
 
   <section class="relative flex flex-col justify-center items-center min-h-96 px-4 sm:px-8">
     <div class="z-10">
