@@ -219,7 +219,7 @@
       },
       {
         "type": "soundcloud",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "title": "Ruin - Endless Dismal Moan",
         "country": "jp",
         "genres": ["Blackended Death Metal", "Noise"]
@@ -237,6 +237,20 @@
     "title": "Hadal Zone",
     "description": "The crushing depths",
     "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4146030567/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=943553418/transparent=true",
+        "title": "333 Mutilation Methods - DELETÄ",
+        "country": "br",
+        "genres": ["Noise", "Hardcore"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1349861029&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Tongue Removal - Dissolved",
+        "country": "us",
+        "genres": ["Gorenoise"]
+      },
       {
         "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=431562691/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2465782309/transparent=true",
@@ -257,6 +271,20 @@
         "title": "Typhonian Wormholes: Indecipherable Anti-Structural Formulæ - Tetragrammacide",
         "country": "in",
         "genres": ["Blackended Death Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2643494705/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2077970061/transparent=true",
+        "title:": "Emetic - Dead Body Love",
+        "country": "it",
+        "genres": ["Experimental", "Harsh Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1681554139/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4219221784/transparent=true",
+        "title": "Mummy And Daddy - Whitehouse",
+        "country": "gb",
+        "genres": ["Noise"]
       }
     ]
   }
