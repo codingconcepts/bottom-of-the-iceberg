@@ -1,243 +1,255 @@
 <script>
-  import Layer from "./Layer.svelte";
-  import Band from "./Band.svelte";
-  import GitHubButton from "./GitHubButton.svelte";
+  import Layer from '../components/Layer.svelte';
+  import Band from '../components/Band.svelte';
+  import GitHubButton from '../components/GitHubButton.svelte';
+  import Iceberg from '../components/Iceberg.svelte';
 
   const layers = [
     {
-      title: "Surface Waters",
-      description: "Gateway to the depths",
+      title: 'Surface Waters',
+      description: 'Gateway to the depths',
       bands: [
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=2596157761/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=814129051/transparent=true",
-          title: "House of the Black Geminus - Akhlys",
+            'https://bandcamp.com/EmbeddedPlayer/album=2596157761/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=814129051/transparent=true',
+          title: 'House of the Black Geminus - Akhlys',
         },
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=1362890488/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1341480427/transparent=true/",
-          title: "Lowgazers - Plebeian Grandstand"
-        },
-        {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=3354084468/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1752248217/transparent=true",
-          title: "Serial Urbicide - Extermination Dismemberment",
+            'https://bandcamp.com/EmbeddedPlayer/album=1362890488/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1341480427/transparent=true/',
+          title: 'Lowgazers - Plebeian Grandstand',
         },
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=40623812/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2517576029/transparent=true",
-          title: "Silence - RORCAL"
-        },
-        {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=1320490252/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1744996731/transparent=true",
-          title: "INDWELL - Methwitch",
+            'https://bandcamp.com/EmbeddedPlayer/album=3354084468/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1752248217/transparent=true',
+          title: 'Serial Urbicide - Extermination Dismemberment',
         },
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=63441355/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1107287539/transparent=true",
-          title: "Through the Mirror - Endon"
-        }
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=40623812/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2517576029/transparent=true',
+          title: 'Silence - RORCAL',
+        },
+        {
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=1320490252/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1744996731/transparent=true',
+          title: 'INDWELL - Methwitch',
+        },
+        {
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=63441355/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1107287539/transparent=true',
+          title: 'Through the Mirror - Endon',
+        },
       ],
     },
     {
-      title: "Twilight Zone",
-      description: "Light begins to fade",
+      title: 'Twilight Zone',
+      description: 'Light begins to fade',
       bands: [
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=2795708310/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3622130824/transparent=true",
-          title: "The Codex Necro - Anaal Nathrakh"
-        },
-        {
-          type: "soundcloud",
-          embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/508135677&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
-          title: "Preaching For Mass Suicide - Damaar"
-        },
-        {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=4269738797/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2527554322/transparent=true",
-          title: "Eternal Flesh Ripping Chaos - BESTIAL PUTREFACTION",
+            'https://bandcamp.com/EmbeddedPlayer/album=2795708310/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3622130824/transparent=true',
+          title: 'The Codex Necro - Anaal Nathrakh',
         },
         {
-          type: "bandcamp",
+          type: 'soundcloud',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=335410990/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1959712987/transparent=true",
-          title:
-            "The Doorway - Adventures in the Death State Boundary by Vessel Of Iniquity",
+            'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/508135677&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false',
+          title: 'Preaching For Mass Suicide - Damaar',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=2521025399/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2752009065/transparent=true",
-          title: "Stow - PORTAL",
+            'https://bandcamp.com/EmbeddedPlayer/album=4269738797/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2527554322/transparent=true',
+          title: 'Eternal Flesh Ripping Chaos - BESTIAL PUTREFACTION',
         },
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=3277962768/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3860944420/transparent=true",
-          title: "The Baneful Choir - Teitanblood"
-        }
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=335410990/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1959712987/transparent=true',
+          title: 'The Doorway - Adventures in the Death State Boundary by Vessel Of Iniquity',
+        },
+        {
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=2521025399/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2752009065/transparent=true',
+          title: 'Stow - PORTAL',
+        },
+        {
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=3277962768/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3860944420/transparent=true',
+          title: 'The Baneful Choir - Teitanblood',
+        },
       ],
     },
     {
-      title: "Midnight Zone",
-      description: "Darkness takes hold",
+      title: 'Midnight Zone',
+      description: 'Darkness takes hold',
       bands: [
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=431629956/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2311589613/transparent=true",
-          title: "Pain/Ter - K.F.R"
-        },
-        {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=4270580890/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1117006975/transparent=true",
-          title: "Enhanced Audial Terrorism - Febris Manea",
+            'https://bandcamp.com/EmbeddedPlayer/album=431629956/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2311589613/transparent=true',
+          title: 'Pain/Ter - K.F.R',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=2722518219/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2706870416/transparent=true",
-          title: "Cannibal Coronal Mass Ejections - Jyotisavedanga",
+            'https://bandcamp.com/EmbeddedPlayer/album=4270580890/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1117006975/transparent=true',
+          title: 'Enhanced Audial Terrorism - Febris Manea',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=2057901946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=11829854/transparent=true",
-          title: "Jacob&#39;s Ladder - Hell Militia",
+            'https://bandcamp.com/EmbeddedPlayer/album=2722518219/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2706870416/transparent=true',
+          title: 'Cannibal Coronal Mass Ejections - Jyotisavedanga',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=4060129622/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2334899399/transparent=true",
-          title: "Hiss - Wormrot",
+            'https://bandcamp.com/EmbeddedPlayer/album=2057901946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=11829854/transparent=true',
+          title: 'Jacob&#39;s Ladder - Hell Militia',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=3303220371/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=815946258/transparent=true",
-          title: "Death, Pierce Me - Silencer",
+            'https://bandcamp.com/EmbeddedPlayer/album=4060129622/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2334899399/transparent=true',
+          title: 'Hiss - Wormrot',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=1580834044/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=282267191/transparent=true",
-          title: "Rectum Grinder - INTESTINAL DISGORGE",
+            'https://bandcamp.com/EmbeddedPlayer/album=3303220371/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=815946258/transparent=true',
+          title: 'Death, Pierce Me - Silencer',
         },
         {
-          type: "soundcloud",
-          embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1663057146&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
-          title: "Unholy Liquid - Effluence"
-        }
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=1580834044/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=282267191/transparent=true',
+          title: 'Rectum Grinder - INTESTINAL DISGORGE',
+        },
+        {
+          type: 'soundcloud',
+          embedUrl:
+            'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1663057146&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false',
+          title: 'Unholy Liquid - Effluence',
+        },
       ],
     },
     {
-      title: "Abyssal Plain",
-      description: "Beyond the reach of light",
+      title: 'Abyssal Plain',
+      description: 'Beyond the reach of light',
       bands: [
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=1401043708/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=245687838/transparent=true",
-          title: "PUTREFACTION IN PROGRESS - LAST DAYS OF HUMANITY"
-        },
-        {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=1194998195/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3418300228/transparent=true",
-          title: "Black Void Ov Heaven - Drohtnung",
+            'https://bandcamp.com/EmbeddedPlayer/album=1401043708/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=245687838/transparent=true',
+          title: 'PUTREFACTION IN PROGRESS - LAST DAYS OF HUMANITY',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=3519719860/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=477222344/transparent=true",
-          title: "Featureless Thermal Equilibrium - Sissy Spacek",
+            'https://bandcamp.com/EmbeddedPlayer/album=1194998195/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3418300228/transparent=true',
+          title: 'Black Void Ov Heaven - Drohtnung',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=3440570094/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2544692568/transparent=true",
-          title: "Eschatological Scatology - GNAW THEIR TONGUES",
+            'https://bandcamp.com/EmbeddedPlayer/album=3519719860/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=477222344/transparent=true',
+          title: 'Featureless Thermal Equilibrium - Sissy Spacek',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=3805071938/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4260168030/transparent=true",
-          title: "A.G.B.B.A.U. - NYGTHBLSZ",
+            'https://bandcamp.com/EmbeddedPlayer/album=3440570094/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2544692568/transparent=true',
+          title: 'Eschatological Scatology - GNAW THEIR TONGUES',
         },
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=3899474641/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2656124149/transparent=true",
-          title: "Death Monolith - SUBDUER"
-        },
-        {
-          type: "soundcloud",
+          type: 'bandcamp',
           embedUrl:
-            "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          title: "Ruin - Endless Dismal Moan",
+            'https://bandcamp.com/EmbeddedPlayer/album=3805071938/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4260168030/transparent=true',
+          title: 'A.G.B.B.A.U. - NYGTHBLSZ',
         },
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=2947460408/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1775346782/transparent=true",
-          title: "Abhabaniyastral Samsarimplication - BRAHMASTRIKA"
-        }
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=3899474641/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2656124149/transparent=true',
+          title: 'Death Monolith - SUBDUER',
+        },
+        {
+          type: 'soundcloud',
+          embedUrl:
+            'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
+          title: 'Ruin - Endless Dismal Moan',
+        },
+        {
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=2947460408/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1775346782/transparent=true',
+          title: 'Abhabaniyastral Samsarimplication - BRAHMASTRIKA',
+        },
       ],
     },
     {
-      title: "Hadal Zone",
-      description: "The crushing depths",
+      title: 'Hadal Zone',
+      description: 'The crushing depths',
       bands: [
         {
-          type: "bandcamp",
-          embedUrl: "https://bandcamp.com/EmbeddedPlayer/album=431562691/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2465782309/transparent=true",
-          title: "Venereology - Merzbow"
+          type: 'bandcamp',
+          embedUrl:
+            'https://bandcamp.com/EmbeddedPlayer/album=431562691/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2465782309/transparent=true',
+          title: 'Venereology - Merzbow',
         },
         {
-          type: "soundcloud",
+          type: 'soundcloud',
           embedUrl:
-            "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1474984045&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
-          title: "The Pain of Bleeding - Emit",
+            'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1474984045&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false',
+          title: 'The Pain of Bleeding - Emit',
         },
         {
-          type: "bandcamp",
+          type: 'bandcamp',
           embedUrl:
-            "https://bandcamp.com/EmbeddedPlayer/album=2081787140/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3257348911/transparent=true",
-          title:
-            "Typhonian Wormholes: Indecipherable Anti-Structural Formulæ - Tetragrammacide",
+            'https://bandcamp.com/EmbeddedPlayer/album=2081787140/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3257348911/transparent=true',
+          title: 'Typhonian Wormholes: Indecipherable Anti-Structural Formulæ - Tetragrammacide',
         },
       ],
     },
   ];
 </script>
 
-<main class="prose min-h-screen p-4 bg-gradient-to-b from-brand-blue to-black max-w-none">
-  <div class="flex flex-col gap-16 max-w-7xl mx-auto px-4">
+<main class="prose min-h-screen max-w-none bg-brand-depth">
+  <header class="w-full max-w-7xl mx-auto p-4 sm:p-8">
+    <nav class="flex justify-end">
+      <GitHubButton repoUrl="https://github.com/codingconcepts/bottom-of-the-iceberg" buttonText="Contribute" />
+    </nav>
+  </header>
 
-    <GitHubButton
-    repoUrl="https://github.com/codingconcepts/bottom-of-the-iceberg"
-    buttonText="Contribute"
-    />
-    
-    <header>
-      <h1 class="font-display m-0">Bottom of the Iceberg</h1>
-      <p class='m-0'>A descent into the depths of extreme metal</p>
-    </header>
-    
-    <div class="flex flex-col gap-16 w-full">
-      {#each layers as layer}
-      <Layer {...layer}>
-        <div class='grid grid-cols-1 md:grid-cols-2 gap-4  bg-slate-900/10 p-8 rounded border border-brand-blue'>
-          {#each layer.bands as band}
-          <Band {...band} />
-          {/each}
-        </div>
-      </Layer>
-      {/each}
+  <section class="relative flex flex-col justify-center items-center min-h-96 px-4 sm:px-8">
+    <div class="z-10">
+      <h1 class="text-center font-display m-0 text-4xl lg:text-7xl text-brand-depth-4">Bottom of the Iceberg</h1>
+      <p class="m-0 text-center font-bold text-xl text-brand-depth-3">A descent into the depths of extreme metal</p>
     </div>
-    
-  </div>
-</main>
+    <div class="absolute bottom-0 w-full">
+      <div class="max-w-4xl mx-auto">
+        <Iceberg />
+      </div>
+    </div>
+  </section>
 
+  {#each layers as layer, index}
+    <Layer {...layer} depth={index}>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {#each layer.bands as band}
+          <Band {...band} />
+        {/each}
+      </div>
+    </Layer>
+  {/each}
+</main>
