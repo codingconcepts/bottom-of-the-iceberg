@@ -5,6 +5,12 @@
   import Iceberg from '../components/Iceberg.svelte';
 
   import layers from './layers.json'
+
+  const countries = [...new Set(layers.flatMap(x => x.bands.map(band => band.country)))].sort();
+  let selectedCountry = '';
+
+  const genres = [...new Set(layers.flatMap(x => x.bands.flatMap(band => band.genres)))].sort();
+  let selectedGenre = '';
 </script>
 
 <main class="prose min-h-screen max-w-none bg-brand-depth">
