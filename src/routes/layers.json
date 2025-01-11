@@ -1,0 +1,263 @@
+[
+  {
+    "title": "Surface Waters",
+    "description": "Gateway to the depths",
+    "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2596157761/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=814129051/transparent=true",
+        "title": "House of the Black Geminus - Akhlys",
+        "country": "us",
+        "genres": ["Black Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1362890488/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1341480427/transparent=true/",
+        "title": "Lowgazers - Plebeian Grandstand",
+        "country": "fr",
+        "genres": ["Avant-garde Black Metal", "Mathcore", "Power Violence"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3354084468/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1752248217/transparent=true",
+        "title": "Serial Urbicide - Extermination Dismemberment",
+        "country": "by",
+        "genres": ["Slam", "Brutal Death Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=40623812/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2517576029/transparent=true",
+        "title": "Silence - RORCAL",
+        "country": "ch",
+        "genres": ["Sludge", "Doom Metal", "Post-Hardcore"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2537803211/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=431220446/transparent=true",
+        "title": "I Have Seen The Light, And It Was Repulsive - SERMON OF FLAMES",
+        "country": "ie",
+        "genres": ["Blackended Death Metal", "Sludge Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1320490252/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1744996731/transparent=true",
+        "title": "INDWELL - Methwitch",
+        "country": "us",
+        "genres": ["Brutal Death Metal", "Deathcore", "Hardcore"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=63441355/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1107287539/transparent=true",
+        "title": "Through the Mirror - Endon",
+        "country": "jp",
+        "genres": ["Noise", "Grindcore", "Harsh Noise"]
+      }
+    ]
+  },
+  {
+    "title": "Twilight Zone",
+    "description": "Light begins to fade",
+    "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2795708310/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3622130824/transparent=true",
+        "title": "The Codex Necro - Anaal Nathrakh",
+        "country": "uk",
+        "genres": ["Industrial Black Metal", "Grindcore"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3330742934/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1287337942/transparent=true",
+        "title": "Tightened Noose of Sanctimony - Profane Order",
+        "country": "ca",
+        "genres": ["Blackended Death Metal", "War Metal"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/508135677&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Preaching For Mass Suicide - Damaar",
+        "country": "lb",
+        "genres": ["Blackended Death Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4269738797/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2527554322/transparent=true",
+        "title": "Eternal Flesh Ripping Chaos - BESTIAL PUTREFACTION",
+        "country": "ca",
+        "genres": ["Blackended Death Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=335410990/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1959712987/transparent=true",
+        "title": "The Doorway - Adventures in the Death State Boundary - Vessel Of Iniquity",
+        "country": "uk",
+        "genres": ["Blackended Death Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2521025399/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2752009065/transparent=true",
+        "title": "Stow - PORTAL",
+        "country": "au",
+        "genres": ["Experimental Death Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3277962768/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3860944420/transparent=true",
+        "title": "The Baneful Choir - Teitanblood",
+        "country": "es",
+        "genres": ["Blackended Death Metal"]
+      }
+    ]
+  },
+  {
+    "title": "Midnight Zone",
+    "description": "Darkness takes hold",
+    "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=431629956/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2311589613/transparent=true",
+        "title": "Pain/Ter - K.F.R",
+        "country": "fr",
+        "genres": ["Black Metal", "Dark Ambient"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4270580890/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1117006975/transparent=true",
+        "title": "Enhanced Audial Terrorism - Febris Manea",
+        "country": "us",
+        "genres": ["Black Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2722518219/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2706870416/transparent=true",
+        "title": "Cannibal Coronal Mass Ejections - Jyotiṣavedāṅga",
+        "country": "in",
+        "genres": ["Blackended Death Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2057901946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=11829854/transparent=true",
+        "title": "Jacob&#39;s Ladder - Hell Militia",
+        "country": "fr",
+        "genres": ["Black Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4060129622/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2334899399/transparent=true",
+        "title": "Hiss - Wormrot",
+        "country": "sg",
+        "genres": ["Grindcore"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3303220371/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=815946258/transparent=true",
+        "title": "Death, Pierce Me - Silencer",
+        "country": "se",
+        "genres": ["Depressive Black Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1580834044/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=282267191/transparent=true",
+        "title": "Rectum Grinder - INTESTINAL DISGORGE",
+        "country": "us",
+        "genres": ["Grindcore", "Goregrind", "Brutal Death Metal", "Noise"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1663057146&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Unholy Liquid - Effluence",
+        "country": "us",
+        "genres": ["Avant-garde Brutal Death Metal"]
+      }
+    ]
+  },
+  {
+    "title": "Abyssal Plain",
+    "description": "Beyond the reach of light",
+    "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1401043708/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=245687838/transparent=true",
+        "title": "PUTREFACTION IN PROGRESS - LAST DAYS OF HUMANITY",
+        "country": "nl",
+        "genres": ["Goregrind"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1194998195/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3418300228/transparent=true",
+        "title": "Black Void Ov Heaven - Drohtnung",
+        "country": "au",
+        "genres": ["Depressive Black Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3519719860/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=477222344/transparent=true",
+        "title": "Featureless Thermal Equilibrium - Sissy Spacek",
+        "country": "us",
+        "genres": ["Grindcore", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3440570094/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2544692568/transparent=true",
+        "title": "Eschatological Scatology - GNAW THEIR TONGUES",
+        "country": "nl",
+        "genres": ["Black Metal", "Noise", "Experimental"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3805071938/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4260168030/transparent=true",
+        "title": "A.G.B.B.A.U. - NYGTHBLSZ",
+        "country": "us",
+        "genres": ["Blackended Death Metal", "Grindcore"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3899474641/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2656124149/transparent=true",
+        "title": "Death Monolith - SUBDUER",
+        "country": "de",
+        "genres": []
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+        "title": "Ruin - Endless Dismal Moan",
+        "country": "jp",
+        "genres": ["Blackended Death Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2947460408/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1775346782/transparent=true",
+        "title": "Abhabaniyastral Samsarimplication - BRAHMASTRIKA",
+        "country": "in",
+        "genres": ["Blackended Death Metal", "Noise"]
+      }
+    ]
+  },
+  {
+    "title": "Hadal Zone",
+    "description": "The crushing depths",
+    "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=431562691/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2465782309/transparent=true",
+        "title": "Venereology - Merzbow",
+        "country": "jp",
+        "genres": ["Noise"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1474984045&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "The Pain of Bleeding - Emit",
+        "country": "uk",
+        "genres": ["Black Metal", "Noise", "Dark Ambient"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2081787140/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3257348911/transparent=true",
+        "title": "Typhonian Wormholes: Indecipherable Anti-Structural Formulæ - Tetragrammacide",
+        "country": "in",
+        "genres": ["Blackended Death Metal", "Noise"]
+      }
+    ]
+  }
+]
