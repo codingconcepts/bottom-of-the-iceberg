@@ -67,6 +67,27 @@
       },
       {
         "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/track=3496633083/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true",
+        "title": "Chained in the Damnation Asylum - An Axis of Perdition",
+        "country": "uk",
+        "genres": ["Industrial Black Metal", "Dark Ambient"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=493623757/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2282344220/transparent=true",
+        "title": "Disciples of Excremental Liturgies - Μνήμα",
+        "country": "gr",
+        "genres": ["Raw Black Metal", "Noise"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/914843422&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Reek Of The Unzen Gas Fumes - Reek Of The Unzen Gas Fumes",
+        "country": "jp",
+        "genres": ["Industrial", "Blackened Grindcore", "Noise"]
+      },
+      {
+        "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3330742934/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1287337942/transparent=true",
         "title": "Tightened Noose of Sanctimony - Profane Order",
         "country": "ca",
@@ -136,6 +157,13 @@
       },
       {
         "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2692062750/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2324156117/transparent=true",
+        "title": "Unus Mundus Patet - Jute Gyte",
+        "country": "us",
+        "genres": ["Black Metal", "Experimental", "Noise"]
+      },
+      {
+        "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2722518219/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2706870416/transparent=true",
         "title": "Cannibal Coronal Mass Ejections - Jyotiṣavedāṅga",
         "country": "in",
@@ -171,7 +199,7 @@
       },
       {
         "type": "soundcloud",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1663057146&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1663057146&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "title": "Unholy Liquid - Effluence",
         "country": "us",
         "genres": ["Avant-garde Brutal Death Metal"]
@@ -237,6 +265,13 @@
     "title": "Hadal Zone",
     "description": "The crushing depths",
     "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1274566339&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Ainsi Sera-ti-l - Bakbakwalanooksiwae",
+        "country": "ca",
+        "genres": ["Blackended Noise", "Dark Ambient"]
+      },
       {
         "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4146030567/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=943553418/transparent=true",

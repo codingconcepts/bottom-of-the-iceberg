@@ -15,6 +15,8 @@ Contributions are very welcome. Please either:
 
 * FIX: iframe image disappears for mobile
 * FIX: iframe lazy loading doesn't attempt to reload images after they've not loaded (i.e. because of width)
+* FEAT: Authors section at the bottom
+* FEAT: Keep heading/contribute button at the top as the page scrolls down
 * FEAT: Google Analytics
 * FEAT: Show country flags against tracks
 * FEAT: Add country dropdown and filter by
