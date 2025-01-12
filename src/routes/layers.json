@@ -109,13 +109,6 @@
       },
       {
         "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=335410990/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1959712987/transparent=true",
-        "title": "The Doorway - Adventures in the Death State Boundary - Vessel Of Iniquity",
-        "country": "uk",
-        "genres": ["Blackended Death Metal", "Noise"]
-      },
-      {
-        "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2521025399/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2752009065/transparent=true",
         "title": "Stow - PORTAL",
         "country": "au",
@@ -161,6 +154,13 @@
         "title": "Unus Mundus Patet - Jute Gyte",
         "country": "us",
         "genres": ["Black Metal", "Experimental", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4143558803/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true",
+        "title": "The Path Unseen - Vessel Of Iniquity",
+        "country": "uk",
+        "genres": ["Blackended Death Metal", "Noise"]
       },
       {
         "type": "bandcamp",
