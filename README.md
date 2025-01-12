@@ -15,10 +15,14 @@ Contributions are very welcome. Please either:
 
 ### Todos
 
+* FEAT: Keep heading at the top and within it, the:
+  * Contribute button
+  * Layer name
+  * Depth number (it's exported as currentDepth from DepthRuler.svelte)
+  * SVG from current layer
 * FIX: iframe image disappears for mobile
 * FIX: iframe lazy loading doesn't attempt to reload images after they've not loaded (i.e. because of width)
 * FEAT: Authors section at the bottom
-* FEAT: Keep heading/contribute button at the top as the page scrolls down
 * FEAT: Google Analytics
 * FEAT: Show country flags against tracks
 * FEAT: Add country dropdown and filter by
