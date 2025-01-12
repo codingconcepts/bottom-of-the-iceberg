@@ -106,6 +106,13 @@
         "title": "The Baneful Choir - Teitanblood",
         "country": "es",
         "genres": ["Blackended Death Metal"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Ruin - Endless Dismal Moan",
+        "country": "jp",
+        "genres": ["Blackended Death Metal", "Noise"]
       }
     ]
   },
@@ -215,13 +222,6 @@
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3899474641/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2656124149/transparent=true",
         "title": "Death Monolith - SUBDUER",
         "country": "de",
-        "genres": []
-      },
-      {
-        "type": "soundcloud",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
-        "title": "Ruin - Endless Dismal Moan",
-        "country": "jp",
         "genres": ["Blackended Death Metal", "Noise"]
       },
       {
@@ -252,13 +252,6 @@
         "genres": ["Gorenoise"]
       },
       {
-        "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=431562691/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2465782309/transparent=true",
-        "title": "Venereology - Merzbow",
-        "country": "jp",
-        "genres": ["Noise"]
-      },
-      {
         "type": "soundcloud",
         "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1474984045&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "title": "The Pain of Bleeding - Emit",
@@ -271,6 +264,40 @@
         "title": "Typhonian Wormholes: Indecipherable Anti-Structural Formulæ - Tetragrammacide",
         "country": "in",
         "genres": ["Blackended Death Metal", "Noise"]
+      }
+    ]
+  },
+  {
+    "title": "Beyond Metal",
+    "description": "Pure sonic devastation",
+    "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=431562691/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2465782309/transparent=true",
+        "title": "Venereology - Merzbow",
+        "country": "jp",
+        "genres": ["Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=87834409/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2808986245/transparent=true",
+        "title": "Ejaculation Generater - Masonna",
+        "country": "jp",
+        "genres": ["Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2417480938/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=268427552/transparent=true",
+        "title": "Validity - Torturing Nurse",
+        "country": "jp",
+        "genres": ["Harsh Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=67744064/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true",
+        "title": "Untitled by lipcreem",
+        "country": "za",
+        "genres": ["Harsh Noise"]
       },
       {
         "type": "bandcamp",

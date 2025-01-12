@@ -13,12 +13,13 @@ Contributions are very welcome. Please either:
 
 ### Todos
 
-* General UI/UX tart up
-* Better UX for mobile (perhaps swap out small icons once width reaches a threshold)
-* Use Metal Mania font for title
-* Fix bundling (ignores title and Metal Mania font)
-* Country flags
-* Better track titles (including subgenres)
+* FIX: iframe image disappears for mobile
+* FIX: iframe lazy loading doesn't attempt to reload images after they've not loaded (i.e. because of width)
+* FEAT: Google Analytics
+* FEAT: Show country flags against tracks
+* FEAT: Add country dropdown and filter by
+* FEAT: Show genres against stracks
+* FEAT: Add genre dropdown and filter by
 
 ### Thanks
 
