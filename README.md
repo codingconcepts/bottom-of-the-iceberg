@@ -2,14 +2,16 @@
 
 This is the code that backs [Bottom of the Iceberg](https://bottomoftheiceberg.com).
 
-Feel free to contribute by submitting your own tracks/suggestions and, together, we'll decend to the depths of extreme metal; discovering new bands as we go.
+Like many metalheads, I love to discover new and terrifying metal with the help of iceberg charts. To give back to the metal community, me and [Paul Scanlon](https://github.com/PaulieScanlon) have created this iceberg _site_ that can be built up over time.
+
+Think of it as a shared journey to the most vile and crushing depths of music. All of us, discovering as we go.
 
 ### Contributing
 
 Contributions are very welcome. Please either:
 
-* Create a Pull Request if you're familiar with GitHub
-* [Create a track request](https://github.com/codingconcepts/bottom-of-the-iceberg/issues/new/choose) if you're not familiar with GitHub
+* [Create a track request](https://github.com/codingconcepts/bottom-of-the-iceberg/issues/new/choose)
+* Of if you'd prefer to create a Pull Request yourself, that's also fine!
 
 ### Todos
 
