@@ -41,7 +41,7 @@
     {title}
   ></iframe>
 
-  <div class="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
+  <div class="absolute top-0 right-0 transform translate-x-1/4 -translate-y-1/4 z-10">
     <Flag code={country} />
   </div>
 </div>
