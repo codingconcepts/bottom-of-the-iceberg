@@ -15,6 +15,7 @@ Contributions are very welcome. Please either:
 
 ### Todos
 
+* FEAT: Create bottomoftheiceberg.com email
 * FEAT: Keep heading at the top and within it, the:
   * Contribute button
   * Layer name

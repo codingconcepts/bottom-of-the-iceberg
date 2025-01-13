@@ -38,7 +38,7 @@
 <div bind:this={player} class="relative w-full h-32 opacity-0 transition-opacity duration-500">
   <iframe bind:this={root} data-src={embedUrl} data-type={type} src="" class="w-full h-full" {title}></iframe>
 
-  <div class="absolute -top-3 -left-3 z-10 size-10">
+  <div class="absolute -bottom-3 -left-3 z-10 size-10">
     <Flag code={country} />
   </div>
 </div>
