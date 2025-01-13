@@ -11,7 +11,7 @@
 
 <!-- bg-gradient-to-b to-brand-depth-${depth} from-brand-depth-${depth + 1} -->
 <section class={`relative flex flex-col gap-4 bg-brand-depth-${depth}`}>
-  <div class="flex flex-col gap-8 w-full max-w-7xl mx-auto p-4 py-8 z-10">
+  <div class="flex flex-col gap-8 w-full max-w-7xl mx-auto p-8 py-16 z-10">
     <div class="text-white">
       <h2 class="m-0 text-inherit">{title}</h2>
       <p class="m-0">{description}</p>
