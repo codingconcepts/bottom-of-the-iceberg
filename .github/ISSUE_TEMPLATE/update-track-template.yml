@@ -1,0 +1,26 @@
+name: "Update track request"
+description: Move a track between iceberg layers
+title: "[UPDATE TRACK] - Enter a descriptive title"
+body:
+ - type: input
+    id: track_or_band
+    attributes:
+      label: "Track or band name"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: "Level"
+      description: At which level does this track belong?
+      multiple: false
+      options:
+        - Surface Waters
+        - Twilight Zone
+        - Midnight Zone
+        - Abyssal Plain
+        - Hadal Zone
+        - Beyond Metal
+    validations:
+      required: false
