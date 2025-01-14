@@ -12,13 +12,6 @@
       },
       {
         "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1362890488/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1341480427/transparent=true/",
-        "title": "Lowgazers - Plebeian Grandstand",
-        "country": "Fr",
-        "genres": ["Avant-garde Black Metal", "Mathcore", "Power Violence"]
-      },
-      {
-        "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3354084468/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1752248217/transparent=true",
         "title": "Serial Urbicide - Extermination Dismemberment",
         "country": "By",
@@ -92,6 +85,13 @@
         "title": "Disciples of Excremental Liturgies - Μνήμα",
         "country": "Gr",
         "genres": ["Raw Black Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1362890488/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1341480427/transparent=true/",
+        "title": "Lowgazers - Plebeian Grandstand",
+        "country": "Fr",
+        "genres": ["Avant-garde Black Metal", "Mathcore", "Power Violence"]
       },
       {
         "type": "soundcloud",
@@ -338,7 +338,7 @@
         "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2417480938/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=268427552/transparent=true",
         "title": "Validity - Torturing Nurse",
-        "country": "Jp",
+        "country": "Cn",
         "genres": ["Harsh Noise"]
       },
       {
