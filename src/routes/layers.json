@@ -46,18 +46,18 @@
         "genres": ["Noise", "Grindcore", "Harsh Noise"]
       },
       {
-        "type": "soundcloud",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49099993&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&download=false",
-        "title": "Filosofem - Burzum",
-        "country": "No",
-        "genres": ["Black Metal"]
-      },
-      {
         "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1852981240/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=276115888/transparent=true",
         "title": "Tomb Of The Mutilated - Cannibal Corpse",
         "country": "Us",
         "genres": ["Death Metal"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49099993&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&download=false",
+        "title": "Filosofem - Burzum",
+        "country": "No",
+        "genres": ["Black Metal"]
       }
     ]
   },
@@ -94,32 +94,11 @@
         "genres": ["Avant-garde Black Metal", "Mathcore", "Power Violence"]
       },
       {
-        "type": "youtube",
-        "embedUrl": "https://www.youtube.com/embed/FmIlbyS3Prk?si=7H673GnUR_XLvq8O",
-        "title": "Usurpation - Knelt Rote",
-        "country": "Us",
-        "genres": ["Black Metal", "Grindcore"]
-      },
-      {
-        "type": "soundcloud",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/914843422&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
-        "title": "Reek Of The Unzen Gas Fumes - Reek Of The Unzen Gas Fumes",
-        "country": "Jp",
-        "genres": ["Industrial", "Blackened Grindcore", "Noise"]
-      },
-      {
         "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3330742934/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1287337942/transparent=true",
         "title": "Tightened Noose of Sanctimony - Profane Order",
         "country": "Ca",
         "genres": ["Blackended Death Metal", "War Metal"]
-      },
-      {
-        "type": "soundcloud",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/508135677&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
-        "title": "Preaching For Mass Suicide - Damaar",
-        "country": "Lb",
-        "genres": ["Blackended Death Metal"]
       },
       {
         "type": "bandcamp",
@@ -150,6 +129,27 @@
         "genres": ["Depressive Black Metal"]
       },
       {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2057901946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=11829854/transparent=true",
+        "title": "Jacob&#39;s Ladder - Hell Militia",
+        "country": "Fr",
+        "genres": ["Black Metal"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/914843422&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Reek Of The Unzen Gas Fumes - Reek Of The Unzen Gas Fumes",
+        "country": "Jp",
+        "genres": ["Industrial", "Blackened Grindcore", "Noise"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/508135677&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Preaching For Mass Suicide - Damaar",
+        "country": "Lb",
+        "genres": ["Blackended Death Metal"]
+      },
+      {
         "type": "soundcloud",
         "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1788870874&color=%23333333&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
         "title": "Ruin - Endless Dismal Moan",
@@ -157,11 +157,11 @@
         "genres": ["Blackended Death Metal", "Noise"]
       },
       {
-        "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2057901946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=11829854/transparent=true",
-        "title": "Jacob&#39;s Ladder - Hell Militia",
-        "country": "Fr",
-        "genres": ["Black Metal"]
+        "type": "youtube",
+        "embedUrl": "https://www.youtube.com/embed/FmIlbyS3Prk?si=7H673GnUR_XLvq8O",
+        "title": "Usurpation - Knelt Rote",
+        "country": "Us",
+        "genres": ["Black Metal", "Grindcore"]
       }
     ]
   },
@@ -240,10 +240,10 @@
       },
       {
         "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=779894976/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=514176841/transparent=true",
-        "title": "Crawling Altars - Utarm",
-        "country": "No",
-        "genres": ["Experimental Black Metal", "Noise", "Drone"]
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1244218598/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=128915809/transparent=true",
+        "title": "Dead Slave Dump - Semen Drenched Slave Of The Devil",
+        "country": "Nl",
+        "genres": ["Raw Black Metal", "Noise"]
       },
       {
         "type": "bandcamp",
@@ -293,6 +293,13 @@
         "title": "Abhabaniyastral Samsarimplication - BRAHMASTRIKA",
         "country": "In",
         "genres": ["Blackended Death Metal", "Noise"]
+      },
+      {
+        "type": "youtube",
+        "embedUrl": "https://www.youtube.com/embed/U-kewtYO308?si=hRtjLkS5kDvqFYoX",
+        "title": "Black Light Aeon Apochryphia - Utarm",
+        "country": "No",
+        "genres": ["Experimental Black Metal", "Noise", "Drone"]
       }
     ]
   },
@@ -302,17 +309,24 @@
     "bands": [
       {
         "type": "bandcamp",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1274566339&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
-        "title": "Ainsi Sera-ti-l - Bakbakwalanooksiwae",
-        "country": "Ca",
-        "genres": ["Blackended Noise", "Dark Ambient"]
-      },
-      {
-        "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4146030567/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=943553418/transparent=true",
         "title": "333 Mutilation Methods - DELETÄ",
         "country": "Br",
         "genres": ["Noise", "Hardcore"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2081787140/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3257348911/transparent=true",
+        "title": "Typhonian Wormholes: Indecipherable Anti-Structural Formulæ - Tetragrammacide",
+        "country": "In",
+        "genres": ["Blackended Death Metal", "Noise"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1274566339&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "Ainsi Sera-ti-l - Bakbakwalanooksiwae",
+        "country": "Ca",
+        "genres": ["Blackended Noise", "Dark Ambient"]
       },
       {
         "type": "soundcloud",
@@ -327,13 +341,6 @@
         "title": "The Pain of Bleeding - Emit",
         "country": "Gb",
         "genres": ["Black Metal", "Noise", "Dark Ambient"]
-      },
-      {
-        "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2081787140/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3257348911/transparent=true",
-        "title": "Typhonian Wormholes: Indecipherable Anti-Structural Formulæ - Tetragrammacide",
-        "country": "In",
-        "genres": ["Blackended Death Metal", "Noise"]
       }
     ]
   },
