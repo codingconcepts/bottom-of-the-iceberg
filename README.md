@@ -15,9 +15,8 @@ Contributions are very welcome. Please either:
 
 ### Todos
 
+* FEAT: Look into YouTube and its player API (https://developers.google.com/youtube/iframe_api_reference?hl=en#Playback_controls)
 * FIX: Stop one player after another starts
-* FEAT: Look into YouTube and Spotify embeds
-* FEAT: Create bottomoftheiceberg.com email
 * FEAT: Keep heading at the top and within it, the:
   * Contribute button
   * Layer name
