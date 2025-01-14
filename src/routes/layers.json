@@ -148,6 +148,13 @@
         "title": "Ruin - Endless Dismal Moan",
         "country": "Jp",
         "genres": ["Blackended Death Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2057901946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=11829854/transparent=true",
+        "title": "Jacob&#39;s Ladder - Hell Militia",
+        "country": "Fr",
+        "genres": ["Black Metal"]
       }
     ]
   },
@@ -192,13 +199,6 @@
       },
       {
         "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=2057901946/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=11829854/transparent=true",
-        "title": "Jacob&#39;s Ladder - Hell Militia",
-        "country": "Fr",
-        "genres": ["Black Metal"]
-      },
-      {
-        "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=4060129622/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2334899399/transparent=true",
         "title": "Hiss - Wormrot",
         "country": "Sg",
@@ -224,6 +224,20 @@
     "title": "Abyssal Plain",
     "description": "Beyond the reach of light",
     "bands": [
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1985053170/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3357781124/transparent=true",
+        "title": "Noizemongers for GoatSerpent - Enbilulugugal",
+        "country": "Us",
+        "genres": ["Raw Black Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=779894976/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=514176841/transparent=true",
+        "title": "Crawling Altars - Utarm",
+        "country": "No",
+        "genres": ["Experimental Black Metal", "Noise", "Drone"]
+      },
       {
         "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1401043708/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=245687838/transparent=true",

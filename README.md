@@ -15,6 +15,8 @@ Contributions are very welcome. Please either:
 
 ### Todos
 
+* FIX: Stop one player after another starts
+* FEAT: Look into YouTube and Spotify embeds
 * FEAT: Create bottomoftheiceberg.com email
 * FEAT: Keep heading at the top and within it, the:
   * Contribute button
