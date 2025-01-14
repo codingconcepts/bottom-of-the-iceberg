@@ -67,11 +67,11 @@
 
       {#if index === layers.length - 1}
         <div class="relative flex flex-row justify-center items-center gap-1 w-full">
-          <p class="text-[#ccc]">© {year} - Rob Reid</p>
+          <p class="text-[#ccc]">© {year} -</p>
           <a
             class="text-[#ccc] text-sm"
             href="mailto:rob@bottomoftheiceberg.com"
-            >(rob@bottomoftheiceberg.com)</a
+            >Rob Reid</a
           >
           <p class="text-[#ccc]">and Paul Scanlon</p>
         </div>

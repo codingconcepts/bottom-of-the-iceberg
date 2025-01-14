@@ -26,7 +26,6 @@ Contributions are very welcome. Please either:
 * FIX: iframe lazy loading doesn't attempt to reload images after they've not loaded (i.e. because of width)
 * FEAT: Authors section at the bottom
 * FEAT: Google Analytics
-* FEAT: Show country flags against tracks
 * FEAT: Add country dropdown and filter by
 * FEAT: Show genres against stracks
 * FEAT: Add genre dropdown and filter by
