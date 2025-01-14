@@ -26,6 +26,7 @@ body:
         - Midnight Zone
         - Abyssal Plain
         - Hadal Zone
+        - Beyond Metal
     validations:
       required: false
 
