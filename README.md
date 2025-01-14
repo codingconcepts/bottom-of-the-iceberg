@@ -10,7 +10,7 @@ Think of it as a shared journey to the most vile and crushing depths of music. A
 
 Contributions are very welcome. Please either:
 
-* [Create a track request](https://github.com/codingconcepts/bottom-of-the-iceberg/issues/new/choose)
+* [Create a new/update track request](https://github.com/codingconcepts/bottom-of-the-iceberg/issues/new/choose)
 * Of if you'd prefer to create a Pull Request yourself, that's also fine!
 
 ### Todos
