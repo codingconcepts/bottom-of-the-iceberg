@@ -295,6 +295,13 @@
         "genres": ["Blackended Death Metal", "Noise"]
       },
       {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1206342805/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true",
+        "title": "Transcending Void - DEATHSTENCH",
+        "country": "Us",
+        "genres": ["Black Metal", "Dark Ambient"]
+      },
+      {
         "type": "youtube",
         "embedUrl": "https://www.youtube.com/embed/U-kewtYO308?si=hRtjLkS5kDvqFYoX",
         "title": "Black Light Aeon Apochryphia - Utarm",
