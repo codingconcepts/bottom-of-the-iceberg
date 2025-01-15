@@ -341,6 +341,12 @@
         "title": "The Pain of Bleeding - Emit",
         "country": "Gb",
         "genres": ["Black Metal", "Noise", "Dark Ambient"]
+      },
+      {
+        "type": "youtube",
+        "embedUrl": "https://www.youtube.com/embed/nnxpTU4-nKU?si=We-PylEZwfSYic3f",
+        "title": "Macabre - Goregrinder",
+        "genres": ["Blackended Gorenoise"]
       }
     ]
   },
@@ -382,6 +388,13 @@
         "title:": "Emetic - Dead Body Love",
         "country": "It",
         "genres": ["Experimental", "Harsh Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1833168754/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3884582197/transparent=true",
+        "title": "Jeune Fille, Adhère Encore Un Peu de Chair - Vomir",
+        "country": "Fr",
+        "genres": ["Noise"]
       },
       {
         "type": "bandcamp",
