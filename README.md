@@ -15,6 +15,7 @@ Contributions are very welcome. Please either:
 
 ### Todos
 
+* FEAT: Add a higher layer that includes melodeath, melodic black metal, maybe DSBM, thrash, and OSDM
 * FEAT: Look into YouTube and its player API (https://developers.google.com/youtube/iframe_api_reference?hl=en#Playback_controls)
 * FIX: Stop one player after another starts
 * FEAT: Keep heading at the top and within it, the:
@@ -30,6 +31,7 @@ Contributions are very welcome. Please either:
 * FEAT: Show genres against stracks
 * FEAT: Add genre dropdown and filter by
 
-### Thanks
+### Thanks and Attributions
 
+* [Paul Scanlon](https://github.com/PaulieScanlon)
 * Iceberg favicon created by Freepik - Flaticon

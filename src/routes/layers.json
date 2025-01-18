@@ -53,6 +53,13 @@
         "genres": ["Death Metal"]
       },
       {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=807801739/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2900532887/transparent=true",
+        "title": "Fallen Angel of Doom - Blasphemy",
+        "country": "Ca",
+        "genres": ["Black Metal", "Death Metal"]
+      },
+      {
         "type": "soundcloud",
         "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49099993&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&download=false",
         "title": "Filosofem - Burzum",
@@ -85,6 +92,20 @@
         "title": "Disciples of Excremental Liturgies - Μνήμα",
         "country": "Gr",
         "genres": ["Raw Black Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=64748257/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true",
+        "title": "Caustic - Primitive Man",
+        "country": "Us",
+        "genres": ["Sludge Metal", "Doom Metal", "Noise"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=3608822915/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3049610738/transparent=true",
+        "title": "FUCK OFF EAT SHIT - FxOxExS",
+        "country": "De",
+        "genres": ["Grindcore"]
       },
       {
         "type": "bandcamp",

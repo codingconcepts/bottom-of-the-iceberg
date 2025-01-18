@@ -7,16 +7,6 @@
 
   import layers from "./layers.json";
 
-  const countries = [
-    ...new Set(layers.flatMap((x) => x.bands.map((band) => band.country))),
-  ].sort();
-  let selectedCountry = "";
-
-  const genres = [
-    ...new Set(layers.flatMap((x) => x.bands.flatMap((band) => band.genres))),
-  ].sort();
-  let selectedGenre = "";
-
   const year = new Date().getFullYear();
 
   let currentDepth = 0;
@@ -29,9 +19,6 @@
         repoUrl="https://github.com/codingconcepts/bottom-of-the-iceberg"
         buttonText="Contribute"
       />
-
-      <!-- TODO: Uncomment once heading is fixed and style is improved. -->
-      <!-- <p>{currentDepth}</p> -->
     </nav>
   </header>
 
