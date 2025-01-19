@@ -60,8 +60,8 @@
         "genres": ["Black Metal", "Death Metal"]
       },
       {
-        "type": "soundcloud",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49099993&color=%23333333&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&download=false",
+        "type": "youtube",
+        "embedUrl": "https://www.youtube.com/embed/vfBmYfnjLho?si=ujs7DojfNdRGY7O-",
         "title": "Filosofem - Burzum",
         "country": "No",
         "genres": ["Black Metal"]
