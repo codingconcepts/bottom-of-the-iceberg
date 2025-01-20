@@ -31,8 +31,9 @@
 
   <!-- Sticky container for the title -->
   <div
-    class="sticky top-0 z-10 bg-brand-depth transition-shadow duration-300"
+    class="sticky top-0 z-10 bg-brand-depth duration-300"
     class:shadow="{scrolled}"
+    class:py-4="{scrolled}"
   >
     <h1
       class="text-center font-display m-0 text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-brand-depth-4 drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]"
