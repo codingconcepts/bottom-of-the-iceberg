@@ -252,6 +252,20 @@
         "title": "Unholy Liquid - Effluence",
         "country": "Us",
         "genres": ["Avant-garde Brutal Death Metal"]
+      },
+      {
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=682274290/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true",
+        "title": "In Dolorous Sights - Drohtnung",
+        "country": "Au",
+        "genres": ["Depressive Black Metal"]
+      },
+      { 
+        "type": "bandcamp",
+        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1244218598/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3494260658/transparent=true",
+        "title": "Young Bodies in Bloom Taken to Their Doom - Rat Covenant",
+        "country": "Nl",
+        "genres": ["Raw Black Metal", "Noise"]
       }
     ]
   },
@@ -268,24 +282,10 @@
       },
       {
         "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1244218598/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=128915809/transparent=true",
-        "title": "Dead Slave Dump - Semen Drenched Slave Of The Devil",
-        "country": "Nl",
-        "genres": ["Raw Black Metal", "Noise"]
-      },
-      {
-        "type": "bandcamp",
         "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1401043708/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=245687838/transparent=true",
         "title": "PUTREFACTION IN PROGRESS - LAST DAYS OF HUMANITY",
         "country": "Nl",
         "genres": ["Goregrind"]
-      },
-      {
-        "type": "bandcamp",
-        "embedUrl": "https://bandcamp.com/EmbeddedPlayer/album=1194998195/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3418300228/transparent=true",
-        "title": "Black Void Ov Heaven - Drohtnung",
-        "country": "Au",
-        "genres": ["Depressive Black Metal", "Noise"]
       },
       {
         "type": "bandcamp",
@@ -335,6 +335,13 @@
         "title": "Black Light Aeon Apochryphia - Utarm",
         "country": "No",
         "genres": ["Experimental Black Metal", "Noise", "Drone"]
+      },
+      {
+        "type": "soundcloud",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1474984045&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
+        "title": "The Pain of Bleeding - Emit",
+        "country": "Gb",
+        "genres": ["Black Metal", "Noise", "Dark Ambient"]
       }
     ]
   },
@@ -369,13 +376,6 @@
         "title": "Tongue Removal - Dissolved",
         "country": "Us",
         "genres": ["Gorenoise"]
-      },
-      {
-        "type": "soundcloud",
-        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1474984045&color=%23270c13&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false",
-        "title": "The Pain of Bleeding - Emit",
-        "country": "Gb",
-        "genres": ["Black Metal", "Noise", "Dark Ambient"]
       },
       {
         "type": "youtube",
